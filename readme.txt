@@ -12,3 +12,5 @@ sudo apt install GRUB
 sudo apt install util-linux
 sudo apt install kmod
 sudo apt install pahole
+sudo apt install libelf-dev
+sudo apt install elfutils
