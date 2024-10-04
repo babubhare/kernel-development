@@ -6,8 +6,8 @@
 # Variables that you may change to suit the kernel version
 # and your folder layout
 
-KERNEL_VERSION=6.10.6
-KERNEL_MAJOR_VERSION=v6.x
+KERNEL_VERSION=6.11.1
+KERNEL_MAJOR_VERSION=v6.1
 
 # This suffix will be added to the build folders and the kernel release
 # As we are building a kernel customized for VirtualBox VM hardware
