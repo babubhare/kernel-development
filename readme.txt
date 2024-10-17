@@ -14,3 +14,21 @@ sudo apt install kmod
 sudo apt install pahole
 sudo apt install libelf-dev
 sudo apt install elfutils
+
+
+sudo pacman -S base-devel
+sudo pacman -S gcc
+sudo pacman -S make
+sudo pacman -S binutils
+sudo pacman -S flex
+sudo pacman -S bison
+sudo pacman -S bc
+sudo pacman -S tar
+sudo pacman -S cpio
+sudo pacman -S bash
+sudo pacman -S GRUB
+sudo pacman -S util-linux
+sudo pacman -S kmod
+sudo pacman -S pahole
+sudo pacman -S libelf-dev
+sudo pacman -S elfutils
