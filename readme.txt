@@ -15,7 +15,7 @@ sudo apt install pahole
 sudo apt install libelf-dev
 sudo apt install elfutils
 
-
+pacman -Ssy
 sudo pacman -S base-devel
 sudo pacman -S gcc
 sudo pacman -S make
