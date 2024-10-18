@@ -1,19 +1,19 @@
-sudo apt install build-essentials
-sudo apt install gcc
-sudo apt install make
-sudo apt install binutils
-sudo apt install flex
-sudo apt install bison
-sudo apt install bc
-sudo apt install tar
-sudo apt install cpio
-sudo apt install bash
-sudo apt install GRUB
-sudo apt install util-linux
-sudo apt install kmod
-sudo apt install pahole
-sudo apt install libelf-dev
-sudo apt install elfutils
+sudo apt install build-essentials --assume-yes
+sudo apt install gcc --assume-yes
+sudo apt install make --assume-yes
+sudo apt install binutils --assume-yes
+sudo apt install flex --assume-yes
+sudo apt install bison --assume-yes
+sudo apt install bc --assume-yes
+sudo apt install tar --assume-yes
+sudo apt install cpio --assume-yes
+sudo apt install bash --assume-yes
+sudo apt install GRUB --assume-yes
+sudo apt install util-linux --assume-yes
+sudo apt install kmod --assume-yes
+sudo apt install pahole --assume-yes
+sudo apt install libelf-dev --assume-yes
+sudo apt install elfutils --assume-yes
 
 pacman -Ssy
 sudo pacman -S base-devel
