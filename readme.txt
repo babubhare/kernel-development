@@ -1,3 +1,6 @@
+sudo apt update --assume-yes
+sudo apt upgrade --assume-yes
+
 sudo apt install build-essential --assume-yes
 sudo apt install gcc --assume-yes
 sudo apt install make --assume-yes
