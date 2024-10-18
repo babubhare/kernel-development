@@ -1,4 +1,4 @@
-sudo apt install build-essentials --assume-yes
+sudo apt install build-essential --assume-yes
 sudo apt install gcc --assume-yes
 sudo apt install make --assume-yes
 sudo apt install binutils --assume-yes
