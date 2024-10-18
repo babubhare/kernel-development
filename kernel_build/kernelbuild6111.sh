@@ -22,10 +22,10 @@ KERNEL_BUILD="linux-${KERNEL_RELEASE}"
 
 KERNEL_SOURCE_URL="https://cdn.kernel.org/pub/linux/kernel/${KERNEL_MAJOR_VERSION}/${KERNEL_SOURCE}.tar.xz"
 
-KERNEL_CONFIG_URL="/home/kali/wf/kernel-development/kernel_build/kernel-config-vbox"
+#KERNEL_CONFIG_URL="/home/kali/wf/kernel-development/kernel_build/kernel-config-vbox"
 
 # You may use this alternate URL instead of the long github url if you prefer 
-#KERNEL_CONFIG_URL="https://files.chandrashekar.info/kernel-config-vbox"
+KERNEL_CONFIG_URL="https://files.chandrashekar.info/kernel-config-vbox"
 
 SOURCE_FOLDER=/usr/local/src/${KERNEL_SOURCE}
 BUILD_FOLDER=/usr/local/build/${KERNEL_BUILD}
@@ -63,10 +63,10 @@ mkdir -p $BUILD_FOLDER
 ### Step 1: Create a .config using the make configuration target
 # In our specific case - we will use a template .config file that I've
 # used to build an earlier kernel version to save time.
-#curl -o ${BUILD_FOLDER}/.config $KERNEL_CONFIG_URL 
+curl -o ${BUILD_FOLDER}/.config $KERNEL_CONFIG_URL 
 ###########################################BABU
 
-cp $KERNEL_CONFIG_URL ${BUILD_FOLDER}/.config
+#cp $KERNEL_CONFIG_URL ${BUILD_FOLDER}/.config
   
 # Change current working directory to the source folder
 cd $SOURCE_FOLDER
