@@ -2,12 +2,13 @@
 
 # Building busybox using preset configuration
 
-USYBOX_VERSION=1.37.0
+BUSYBOX_VERSION=1.37.0
 BUSYBOX_BUILD_SUFFIX=vbox
 
 BUSYBOX_RELEASE="${BUSYBOX_VERSION}-${BUSYBOX_BUILD_SUFFIX}"
 
 BUSYBOX_DOWNLOAD_URL="https://busybox.net/downloads/busybox-${BUSYBOX_VERSION}.tar.bz2"
+
 BUSYBOX_PRESET_CONFIG_URL="https://raw.githubusercontent.com/slashprog/linux-kernel-intro/main/kernel-build/busybox-config-vbox"
 
 WORK_FOLDER=$HOME
