@@ -3536,3 +3536,38 @@ CONFIG_ARCH_USE_MEMTEST=y
 #
 # end of Rust hacking
 # end of Kernel hacking
+
+#CONFIG FOR HYPERV KERNEL
+
+#: Processor type and featueres > Linux Guest Support
+CONFIG_HYPERVISOR_GUEST=y
+#: Processor type and features > Linux Guest Support > Enable paravirtualization code
+CONFIG_PARAVIRT=y
+#: Processor type and features > Linux Guest Support > Paravirtualization layer for spinlocks
+CONFIG_PARAVIRT_SPINLOCKS=y
+#: Device Drivers > Connector - unified userspace <-> kernelspase linker
+CONFIG_CONNECTOR=y
+#: Device Drivers > SCSI device support > SCSI Transports > FiberChannel Transport Attributes
+CONFIG_SCSI_FC_ATTRS=y
+#: Device Drivers > Microsoft Hyper-V guest support > Microsoft Hyper-V client drivers
+CONFIG_HYPERV=y
+#: Device Drivers > Microsoft Hyper-V guest support > Microsoft Hyper-V Utilities driver
+CONFIG_HYPERV_UTILS=y
+#: Device Drivers > Microsoft Hyper-V guest support > Microsoft Hyper-V Balloon driver
+CONFIG_HYPERV_BALLOON=y
+#: Device Drivers > SCSI device support > SCSI low-level drivers > Microsoft Hyper-V virtual storage driver
+CONFIG_HYPERV_STORAGE=y
+#: Device Drivers > Network device support > Microsoft Hyper-V virtual network driver
+CONFIG_HYPERV_NET=y
+#: Device Drivers > Input device support > Hardware I/O ports > Microsoft Synthetic Keyboard driver
+CONFIG_HYPERV_KEYBOARD=y
+#: Device Drivers > Graphics support > Frame buffer Devices > Microsoft Hyper-V Synthetic Video support
+CONFIG_FB_HYPERV=y
+#: Device Drivers > HID support > Special HID drivers > Microsoft Hyper-V mouse driver
+CONFIG_HID_HYPERV_MOUSE=y
+#: Bus options (PCI etc.) > Hyper-V PCI Frontend
+CONFIG_PCI_HYPERV=y
+#: Networking support > Networking options > Virtual Socket protocol
+CONFIG_VSOCKETS=y
+#: Networking support > Networking options > Hyper-V transport for Virtual Sockets
+CONFIG_HYPERV_VSOCKETS=y
