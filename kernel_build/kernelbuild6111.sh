@@ -55,6 +55,11 @@ tar xvf ${KERNEL_SOURCE}.tar.xz -C /usr/local/src/
 # silences errors that occur on symlinks as they do not support
 # changing attributes (only regular files and folders do).
 chattr -Rf +i $SOURCE_FOLDER 
+#REVERSAL OF ABOVE
+chattr -Rf +i $SOURCE_FOLDER
+chattr -Rf -i $SOURCE_FOLDER
+chattr -Rf +a $SOURCE_FOLDER
+
 
 # Create a custom build folder to host the kernel config and build files.
 # Note: we are adding a -vbox suffix to indicate that the build is meant
