@@ -25,7 +25,8 @@ KERNEL_SOURCE_URL="https://cdn.kernel.org/pub/linux/kernel/${KERNEL_MAJOR_VERSIO
 #KERNEL_CONFIG_URL="/home/kali/wf/kernel-development/kernel_build/kernel-config-vbox"
 
 # You may use this alternate URL instead of the long github url if you prefer 
-KERNEL_CONFIG_URL="https://files.chandrashekar.info/kernel-config-vbox"
+#KERNEL_CONFIG_URL="https://files.chandrashekar.info/kernel-config-vbox"
+KERNEL_CONFIG_URL="https://github.com/babubhare/kernel-development/blob/main/kernel_build/kernel-config-vbox"
 
 SOURCE_FOLDER=/usr/local/src/${KERNEL_SOURCE}
 BUILD_FOLDER=/usr/local/build/${KERNEL_BUILD}
