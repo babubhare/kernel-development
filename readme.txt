@@ -17,6 +17,8 @@ sudo apt install kmod --assume-yes
 sudo apt install pahole --assume-yes
 sudo apt install libelf-dev --assume-yes
 sudo apt install elfutils --assume-yes
+sudo apt-get install libssl-dev --assume-yes
+apt install libncurses-dev --assume-yes
 
 pacman -Ssy
 sudo pacman -S base-devel
